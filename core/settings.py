@@ -6,9 +6,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 
 SECRET_KEY = 'django-insecure-itvl$s5&jg@b*o(gz-m8@m5x87-_w(shv)sjhi1$$o+70v(mfy'
 
-DEBUG = True
+DEBUG = False
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['mi-proyecto.azurewebsites.net']
 
 
 # Application definition
